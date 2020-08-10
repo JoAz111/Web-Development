@@ -1,6 +1,6 @@
 import webbrowser
-# Class movie creates an objecvt of type movie. Receives movie title,
-# short movie_storyline poster image link and youtube trailer link.
+"""Class movie creates an object of type movie. Receives movie title,
+   short movie_storyline poster image link and youtube trailer link."""
 
 
 class Movie():

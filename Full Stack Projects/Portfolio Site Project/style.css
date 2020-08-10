@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+hr {
+  background-color: #7d97ad !important;
+    color: #7d97ad !important;
+    border: solid 1px #7d97ad  !important;
+    height: 1px !important;
+}
+h1,h2,h3,h4{
+  font-family: 'Fredoka One', cursive;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+.logo{
+  width:20%;
+  float: left;
+  padding-top:1.5em;
+}
+.mainimage{
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 980px;
+  }
+}

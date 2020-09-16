@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="advanced-search.html"
+            >Advanced Search</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="image-search.html">Image Search</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container searchbox">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 justify-content-center">
+          <img
+            src="media/search-logo.png"
+            class="img-fluid rounded mx-auto d-block"
+            alt="Cs50oogle logo"
+            width="400"
+          />
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <form
+            class="justify-content-center"
+            action="https://google.com/search"
+          >
+            <input class="form-control searchbar" type="text" name="q" />
+            <div class="text-center">
+              <input
+                type="submit"
+                class="btn btn-light searchbutton"
+                value="Google Search"
+              />
+              <input
+                type="submit"
+                class="btn btn-light searchbutton"
+                name="btnI"
+                value="I'm Feeling Lucky"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </body>
+</html>

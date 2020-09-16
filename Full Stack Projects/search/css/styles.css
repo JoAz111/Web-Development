@@ -1,0 +1,41 @@
+.searchbox {
+  margin: 200px auto;
+}
+
+.searchbar {
+  border-radius: 25px;
+}
+
+.searchbar:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.searchbutton {
+  margin: 20px;
+}
+
+.logo {
+  margin: 15px;
+}
+
+.advanced-nav {
+  background-color: #f1f1f1;
+}
+
+.advancedbar {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+.advancedbox {
+  margin: 30px;
+}
+
+.advancedbox form {
+  margin: 10px;
+}
+
+.formtext {
+  margin: 15px 0px;
+}
